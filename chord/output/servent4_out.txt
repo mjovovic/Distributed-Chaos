@@ -1,0 +1,11 @@
+23:01:55 - Starting servent [localhost|1600]
+23:01:55 - Pausing for 6000 ms
+23:01:56 - Sending message [|1600|0||HAIL|2000|]
+23:01:57 - Got message [|1200|3||WELCOME|1600|]
+23:01:57 - Welcome Neighbours to send [[localhost|1200], [localhost|1400]] 3
+23:01:58 - Sending message [|1600|1||READY|1200|]
+23:02:01 - Pausing for 10000 ms
+23:02:02 - Sending message [|1600|2||HAIL|2000|]
+23:02:11 - Pausing for 60000 ms
+23:02:30 - Got message [|1400|5||STATUS_SPECIFIC|1600|]
+23:03:11 - Stopping...

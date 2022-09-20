@@ -1,0 +1,26 @@
+23:01:52 - Starting servent [localhost|1200]
+23:01:52 - Pausing for 4000 ms
+23:01:52 - Sending message [|1200|0||HAIL|2000|]
+23:01:56 - Pausing for 1200 ms
+23:01:56 - Got message [|1100|1||WELCOME|1200|]
+23:01:56 - Welcome Neighbours to send [[localhost|1100], [localhost|1300]] 3
+23:01:57 - Got message [|2000|2||NEW_NODE|1200|]
+23:01:57 - [localhost|1400] 011 [Point{X=250, Y=500}, Point{X=312, Y=391}, Point{X=375, Y=500}]
+23:01:57 - [localhost|1600] 012 [Point{X=375, Y=283}, Point{X=437, Y=391}, Point{X=312, Y=391}]
+23:01:57 - Pausing for 50000 ms
+23:01:57 - Sending message [|1200|1||READY|1100|]
+23:01:57 - Sending message [|1200|3||WELCOME|1600|]
+23:01:58 - Sending message [|1200|2||WELCOME|1400|]
+23:01:58 - Sending message [|1200|4||HAIL|2000|]
+23:01:58 - Got message [|1400|1||READY|1200|]
+23:01:58 - READY [localhost|1200] 3 [[localhost|1100], [localhost|1300], [localhost|1400], [localhost|1600]]
+23:01:58 - Got message [|1600|1||READY|1200|]
+23:01:58 - READY [localhost|1200] 3 [[localhost|1100], [localhost|1300], [localhost|1400], [localhost|1600]]
+23:02:02 - Got message [|1100|4||WELCOME|1200|]
+23:02:02 - Welcome Neighbours to send [[localhost|1100], [localhost|1300], [localhost|1400]] 4
+23:02:03 - Sending message [|1200|5||READY|1100|]
+23:02:31 - Got message [|1400|4||STATUS_SPECIFIC|1200|]
+23:02:32 - Sending message [|1400|7||STATUS_SPECIFIC|1300|]
+23:02:32 - Sending message [|1400|6||STATUS_SPECIFIC|1100|]
+23:02:47 - Pausing for 800 ms
+23:02:48 - Stopping...

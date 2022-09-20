@@ -1,0 +1,43 @@
+23:01:50 - Bootstrap server started on port: 2000
+23:01:52 - Got message [|1100|0||HAIL|2000|]
+23:01:52 - Adding 0 to active list as first in 3
+23:01:53 - Got message [|1200|0||HAIL|2000|]
+23:01:53 - Adding [localhost|1200] to idleServents in 3
+
+23:01:53 - Sending message [|2000|0||WELCOME|1100|]
+23:01:54 - Got message [|1300|0||HAIL|2000|]
+23:01:54 - ENTEERED HERE [[localhost|1200]]3
+
+23:01:54 - 0 
+
+23:01:54 - Neighbour list to send [[localhost|1100], [localhost|1200], [localhost|1300]]in 3
+23:01:55 - Sending message [|2000|1||NEW_NODE|1100|]
+23:01:55 - Got message [|1400|0||HAIL|2000|]
+23:01:55 - Adding [localhost|1400] to idleServents in 3
+
+23:01:56 - Got message [|1600|0||HAIL|2000|]
+23:01:56 - ENTEERED HERE [[localhost|1400]]3
+
+23:01:56 - 1 
+
+23:01:56 - Neighbour list to send [[localhost|1200], [localhost|1400], [localhost|1600]]in 3
+23:01:57 - Sending message [|2000|2||NEW_NODE|1200|]
+23:01:57 - Got message [|1100|3||HAIL|2000|]
+23:01:57 - Adding 0 to active list as first in 4
+23:01:58 - Sending message [|2000|3||WELCOME|1100|]
+23:01:58 - Got message [|1200|4||HAIL|2000|]
+23:01:58 - Adding [localhost|1200] to idleServents in 4
+
+23:01:59 - Got message [|1300|2||HAIL|2000|]
+23:01:59 - Adding [localhost|1300] to idleServents in 4
+
+23:02:01 - Got message [|1400|2||HAIL|2000|]
+23:02:01 - ENTEERED HERE [[localhost|1200], [localhost|1300]]4
+
+23:02:01 - 0 
+
+23:02:01 - Neighbour list to send [[localhost|1100], [localhost|1200], [localhost|1300], [localhost|1400]]in 4
+23:02:01 - Sending message [|2000|4||NEW_NODE|1100|]
+23:02:02 - Got message [|1600|2||HAIL|2000|]
+23:02:02 - Adding [localhost|1600] to idleServents in 4
+

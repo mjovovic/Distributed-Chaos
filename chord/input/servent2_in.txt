@@ -1,0 +1,7 @@
+start triangle
+pause 5000
+pause 400
+start square
+pause 50000
+pause 6000
+stop
